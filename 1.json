@@ -1,0 +1,23 @@
+{
+    "name": "Kaizen",
+    "description": "Kaizen- Change for the better or continuous improvement",
+    "image": ,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Trasparent"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "yellow"
+      },
+      {
+        "trait_type": "Voice",
+        "value": "Oss"
+      },
+      {
+        "trait_type": "Pose",
+        "value": "Yin and Yang"
+      }
+    ]
+  }

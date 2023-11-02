@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "DS-DIGI";
+  src: url("./assets/fonts/DS-DIGI.TTF");
+}
 body {
   margin: 0;
 }
-
+.clock {
+  font-family: "DS-DIGI";
+  font-size: 50px;
+  font-weight: 800;
+}
 video {
   width: 100vw;
   height: 100vh;
@@ -9,4 +17,18 @@ video {
   top: 0;
   object-fit: cover;
   z-index: -1;
+}
+/* min-heigt -> 화면 크기에 100퍼센트 높이 맞춤 . */
+.container {
+  max-width: 1500px;
+  margin: auto;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 32px;
 }
