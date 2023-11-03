@@ -2,6 +2,10 @@
   font-family: "DS-DIGI";
   src: url("./assets/fonts/DS-DIGI.TTF");
 }
+@font-face {
+  font-family: "Spongeboy Me Bob";
+  src: url("./assets/fonts/Spongeboy\ Me\ Bob.ttf");
+}
 body {
   margin: 0;
 }
@@ -9,6 +13,12 @@ body {
   font-family: "DS-DIGI";
   font-size: 50px;
   font-weight: 800;
+  color: #1f1f1f;
+}
+.quotes {
+  font-family: "Spongeboy Me Bob";
+  margin-top: 10px;
+  color: yellow;
 }
 video {
   width: 100vw;
