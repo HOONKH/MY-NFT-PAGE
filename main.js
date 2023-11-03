@@ -48,6 +48,7 @@ getQuotes();
 
 function onClickNewQuotes() {
   const quotes = document.querySelector(".quotes");
+  const newQuotes = document.querySelector(".new-quotes");
   const newQuotesInput = document.querySelector(".new-quotes-input");
 
   if (!newQuotesInput.value) return;
@@ -62,5 +63,16 @@ function onClickNewQuotes() {
 
   // 현재 페이지 반영
   quotes.innerText = newQuotesInput.value;
-  newQuoteInput.value = "";
+  newQuotesInput.value = "";
+  // block이 디스플레이 속성 주는것 none은 디스플레이 없애는것
+  quotes.style.display = "block";
+  newQuotes.style.display = "none";
+}
+
+function onClickQuotes() {
+  const quotes = document.querySelector(".quotes");
+  const newQuotes = document.querySelector(".new-quotes");
+
+  quotes.style.display = "none";
+  newQuotes.style.display = "block";
 }

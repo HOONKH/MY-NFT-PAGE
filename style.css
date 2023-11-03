@@ -10,15 +10,19 @@ body {
   margin: 0;
 }
 .clock {
-  font-family: "DS-DIGI";
-  font-size: 50px;
+  font-family: "Spongeboy Me Bob";
+  font-size: 60px;
   font-weight: 800;
-  color: #1f1f1f;
+  color: #f2c438;
+  margin-top: 12px;
 }
 .quotes {
   font-family: "Spongeboy Me Bob";
   margin-top: 10px;
-  color: #e3cb2d;
+  color: #f2c438;
+  border: 0;
+  background-color: transparent;
+  font-size: 60px;
 }
 video {
   width: 100vw;
@@ -41,4 +45,25 @@ header {
   justify-content: space-between;
   padding: 16px;
   font-size: 32px;
+}
+
+.new-quotes {
+  display: none;
+}
+
+.new-quotes > button {
+  font-size: 18px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  margin-left: 8px;
+  border: 1px solid #f2c438;
+}
+
+.new-quotes-input {
+  border: 1px solid #f2c438;
+  padding: 12px 20px;
+}
+
+.new-quotes-input:focus {
+  outline: 2px solid pink;
 }
